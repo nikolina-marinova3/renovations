@@ -1,0 +1,214 @@
+/* Small phones: from 0 to 480px - MOBILE FIRST APPROACH - as defigned in the main styles.css file */
+
+
+/* Small phones to small tablets: from 481px to 767px - MOBILE FIRST APPROACH */
+
+@media only screen and (min-width: 480px) {
+    
+    body { font-size: 16px; }
+    .section { padding: 30px 0; }
+    
+    .row,
+    .leading-text-box { padding: 3% 3%; }
+    
+   
+    .main-nav { display: none; }
+    
+    .mobile-nav-icon { 
+        display: inline-block;
+        margin-top: 7px; 
+    }
+        
+    h1 { font-size: 160%; }
+    h3 { 
+        font-size: 140%; 
+        padding-top: 3px;
+    }
+    
+    .phrase {
+        width: 96%;
+        margin: 7px 2%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .view {
+    display: block; 
+    }
+ }
+       
+/* Small tablet to big tablet/displays: from 768px to 991px  MOBILE FIRST APPROACH */
+
+    @media only screen and (min-width: 768px) {
+       
+    body { font-size: 18px; }
+    .section { padding: 60px 0; }
+      
+     header {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/landing-bg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/landing-bg.jpg);
+    }
+        
+        .leading-text-box {
+        width: 80%;
+        padding: 3% 3%;
+    }
+        
+    .row {padding: 0 0.3%;}
+    
+    .view {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; 
+        -webkit-box-pack: justify; 
+        -ms-flex-pack: justify; 
+        justify-content: space-between;
+    }     
+       
+    .phrase {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 12px;
+    }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+   .project-step { 
+       font-size: 160%;
+       color: rgb(226, 138, 105);
+    }
+        
+   .contact-quote { width: 90%; }
+        
+    .section-testimonials {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/back-customers.jpg);
+    }
+        
+    cite img { height: 60px;}  
+                        
+    .checkmarks { font-size: 90%; }
+   
+    .advice-price { display: block; }
+ 
+    .offers-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; 
+        -webkit-box-orient: horizontal; 
+        -webkit-box-direction: normal; 
+        -ms-flex-direction: row; 
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+}
+
+/* Big tablet/displays: from 992px to 1023px  MOBILE FIRST APPROACH */
+
+    @media only screen and (min-width: 992px) {
+        .mobile-nav-icon {
+            display: none;
+        }
+        
+        .show-menu {
+            display: none;
+        }  
+        
+        .main-nav {
+            display:-webkit-box;
+            display:-ms-flexbox;
+            display:flex;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            margin-left: 40px;
+        }
+        
+        .main-nav li {
+            display: inline-block;
+            margin-left: 40px;
+        }
+        
+        .main-nav li a:link,
+        .main-nav li a:visited {
+            padding: 16px 0;
+            padding: 16px 0;
+            color: #555;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 90%;
+            border-bottom: 2px solid transparent;
+            -webkit-transition: border-bottom 0.2s;
+            transition: border-bottom 0.2s;
+        }
+
+        .main-nav li a:hover,
+        .main-nav li a:active { border-bottom: 2px solid rgba(240, 175, 150, 0.81);}
+        
+        .show-container {
+            position:fixed;
+            top: 60px;
+            right: 15%;
+            width: 70%; 
+        }
+}
+        
+/* Big displays from 1024px to 1200px - MOBILE FIRST APPROACH */
+
+@media only screen and (min-width: 1024px) {
+     body { font-size: 19px; }
+
+    .checkmarks { 
+     font-size: 90%;
+     line-height: 150%;
+    }
+
+    .advice-price {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    
+    .advice { width: 32%; }
+    
+    .galleries-showcase {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+/* Big displays from 1201px to 1140px - MOBILE FIRST APPROACH */
+
+@media only screen and (min-width: 1201px) {
+    body { font-size: 20px; }
+}
+
+
+
+
+
+
+
+
+

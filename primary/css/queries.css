@@ -9,7 +9,7 @@
     .section { padding: 30px 0; }
     
     .row,
-    .leading-text-box { padding: 3% 3%; }
+    .leading-text-box { padding: 20px 3%; }
     
    
     .main-nav { display: none; }
@@ -52,7 +52,7 @@
         
         .leading-text-box {
         width: 80%;
-        padding: 3% 3%;
+        padding: 20px 3%;
     }
         
     .row {padding: 0 0.3%;}
